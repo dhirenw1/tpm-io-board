@@ -1,0 +1,7 @@
+(version 1)
+
+# Keepout zone not apply to GNDiso
+(rule "GNDiso_keepout"
+	(constraint disallow zone)
+	(condition "A.intersectsArea('ISO_OUT_KEEPOUT')")
+)
