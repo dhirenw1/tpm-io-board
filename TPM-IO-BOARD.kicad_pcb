@@ -5724,7 +5724,7 @@
 		(at 119.5 61.5 180)
 		(tags "ISOW1412DFM ")
 		(property "Reference" "U19"
-			(at -3.5 -7.5 0)
+			(at -3.75 -7.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3c8c4922-65cc-4438-a7ba-ff37356b74a8")
