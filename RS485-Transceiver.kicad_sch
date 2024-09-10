@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C5216548"
 				(at 0 0 0)
 				(effects
 					(font
@@ -666,12 +666,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C650944"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "C0402C103K3REC7411"
@@ -908,7 +909,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "10uF, 10V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -917,12 +918,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C408132"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "GRM155R61A106ME11D"
@@ -1168,12 +1170,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C5360898"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "G800W306018EU"
@@ -1604,6 +1607,15 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C102779"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "ERJPA2F1200X_0_0"
 				(polyline
 					(pts
@@ -1753,9 +1765,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1803,7 +1815,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1853,8 +1865,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1873,9 +1885,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1923,7 +1935,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1973,8 +1985,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2856,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -2905,7 +2917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0402C103K3REC7411:CAPC10555_55N_KEM"
+		(property "Footprint" "CAPC10555_55N_KEM"
 			(at 172.72 78.74 0)
 			(effects
 				(font
@@ -2926,6 +2938,15 @@
 			)
 		)
 		(property "Description" "C0402C103K3REC7411"
+			(at 172.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C650944"
 			(at 172.72 78.74 0)
 			(effects
 				(font
@@ -2977,7 +2998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "G800W306018EU:CONN02_G800_5P08X2P5_AMP"
+		(property "Footprint" "CONN02_G800_5P08X2P5_AMP"
 			(at 227.33 93.98 0)
 			(effects
 				(font
@@ -2998,6 +3019,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5360898"
 			(at 227.33 93.98 0)
 			(effects
 				(font
@@ -3063,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -3112,7 +3142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C0402C103K3REC7411:CAPC10555_55N_KEM"
+		(property "Footprint" "CAPC10555_55N_KEM"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -3133,6 +3163,15 @@
 			)
 		)
 		(property "Description" "C0402C103K3REC7411"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C650944"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -3182,7 +3221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DFM0020A-IPC_A"
+		(property "Footprint" "DFM0020A-IPC_A"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -3209,6 +3248,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5216548"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3374,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM155R61A:CAP_GRM155R61A106ME11_MUR"
+		(property "Footprint" "CAP_GRM155R61A106ME11_MUR"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -3394,7 +3441,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM155R61A106ME11D"
+		(property "Description" "10uF, 10V"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C408132"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -3446,7 +3502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ERJ_PA2F1200X:RES_ERJPA2F1200X"
+		(property "Footprint" "ERJPA2F1200X:RES_ERJPA2F1200X"
 			(at 227.33 114.3 0)
 			(effects
 				(font
@@ -3511,6 +3567,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C102779"
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3623,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM155R61A:CAP_GRM155R61A106ME11_MUR"
+		(property "Footprint" "CAP_GRM155R61A106ME11_MUR"
 			(at 186.69 78.74 0)
 			(effects
 				(font
@@ -3643,7 +3708,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM155R61A106ME11D"
+		(property "Description" "10uF, 10V"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C408132"
 			(at 186.69 78.74 0)
 			(effects
 				(font

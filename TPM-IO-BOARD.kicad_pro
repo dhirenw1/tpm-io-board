@@ -501,8 +501,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "gerbers_v0.0/",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -686,6 +686,10 @@
     [
       "46be8636-daec-4c58-9c06-029b3a31d111",
       "Solenoid-Driver11"
+    ],
+    [
+      "a67441aa-72e9-4dab-a1d8-4857c7bc613c",
+      "LED-Indicators"
     ]
   ],
   "text_variables": {}

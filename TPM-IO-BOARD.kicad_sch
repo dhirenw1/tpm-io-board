@@ -24,7 +24,7 @@
 				)
 			)
 			(property "Value" "1844223"
-				(at 0 0 0)
+				(at -0.762 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -32,7 +32,7 @@
 				)
 			)
 			(property "Footprint" "CONN_1844223_PXC"
-				(at 0 0 0)
+				(at -5.588 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,12 +60,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C5244104"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "1844223"
@@ -299,6 +300,258 @@
 				)
 			)
 		)
+		(symbol "35ZLH470MEFC10X16:35ZLH470MEFC10X16"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "35ZLH470MEFC10X16"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_YX_10X16_RUB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "35ZLH470MEFC10X16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C338196"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "35ZLH470MEFC10X16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_YX_10X16_RUB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "35ZLH470MEFC10X16_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "35ZLH470MEFC10X16_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "691322110002:691322110002"
 			(pin_names
 				(offset 1.016)
@@ -450,6 +703,15 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C61791"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2166,9 +2428,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2216,7 +2478,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2266,8 +2528,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,9 +2548,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2336,7 +2598,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2386,8 +2648,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2406,9 +2668,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2456,7 +2718,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2482,8 +2744,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2512,6 +2774,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
+	)
+	(junction
+		(at 127 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f5e5563-4da4-4256-9390-5424544d6a2c")
 	)
 	(junction
 		(at 219.71 104.14)
@@ -2554,6 +2822,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42f93acb-64dc-4837-b77a-d48189f29575")
+	)
+	(junction
+		(at 127 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454da3dd-931a-46c6-9788-49bc4ad19ae2")
+	)
+	(junction
+		(at 140.97 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc8afd7-4fdc-4376-aad3-6101ec92f7fd")
 	)
 	(junction
 		(at 219.71 135.89)
@@ -2689,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 58.42) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a18f0b6-c15c-4802-b115-11b78b497b9b")
+	)
+	(wire
+		(pts
 			(xy 161.29 40.64) (xy 165.1 40.64)
 		)
 		(stroke
@@ -2716,6 +3006,16 @@
 			(type default)
 		)
 		(uuid "0e0270fa-e6ab-440e-8be7-5dfd3bf99984")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec6ffc2-a061-4b85-b184-14b2ca2882f3")
 	)
 	(wire
 		(pts
@@ -2766,6 +3066,16 @@
 			(type solid)
 		)
 		(uuid "164f1958-8ee6-4c3d-9df0-03613712fa6f")
+	)
+	(wire
+		(pts
+			(xy 140.97 60.96) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17413103-4e62-4f1c-9b27-8d7b4872cb40")
 	)
 	(wire
 		(pts
@@ -3079,6 +3389,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 68.58) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53814f30-bd6d-4d9f-82b6-c397a8146d67")
+	)
+	(wire
+		(pts
 			(xy 73.66 76.2) (xy 100.33 76.2)
 		)
 		(stroke
@@ -3216,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "70947882-6d52-4911-8b27-d5f640112229")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c4490b-7096-48fc-8460-c8226946461c")
 	)
 	(wire
 		(pts
@@ -3366,6 +3696,16 @@
 			(type solid)
 		)
 		(uuid "8930c626-5f36-458c-88ae-90e6918556cc")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acd2140-7bb5-4fbf-96f7-d26a415ad775")
 	)
 	(wire
 		(pts
@@ -3556,6 +3896,16 @@
 			(type solid)
 		)
 		(uuid "b36591f4-a77c-49fb-84e3-ce0d65ee7c7c")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57ef821-6ea0-4265-a6e4-d7da6b9cfa6d")
 	)
 	(wire
 		(pts
@@ -3916,6 +4266,26 @@
 			(justify left bottom)
 		)
 		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
+	)
+	(text "Bus Capacitance"
+		(exclude_from_sim no)
+		(at 126.492 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "656afff6-6639-45e0-ac68-18c3da343d5b")
+	)
+	(text "Vbus In"
+		(exclude_from_sim no)
+		(at 30.988 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3008988-6368-43e8-9c67-58ae0f9182a6")
 	)
 	(label "GPIO6"
 		(at 161.29 95.25 180)
@@ -4443,7 +4813,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 76.2 24.13 0)
 			(effects
 				(font
@@ -4506,7 +4876,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 55.88 24.13 0)
 			(effects
 				(font
@@ -4569,7 +4939,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -4632,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 80.01 0)
 			(effects
 				(font
@@ -4687,7 +5057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at -57.15 74.93 0)
 			(effects
 				(font
@@ -4696,7 +5066,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C35165"
 			(at 66.04 50.8 0)
 			(effects
 				(font
@@ -5000,6 +5379,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de44d48f-3391-4120-bb24-0d84409a8e1f")
 		)
@@ -5125,7 +5513,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 21.59 101.6 0)
 			(effects
 				(font
@@ -5312,6 +5700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed0f1613-312a-49ec-96e4-ba2b7a4d386d")
 		)
@@ -5369,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 177.8 0)
 			(effects
 				(font
@@ -5556,6 +5953,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ead77fb-1cf1-49ea-9e27-ba2e01e9143e")
 		)
@@ -5734,6 +6140,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C61791"
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5918,6 +6333,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7efcc808-cc82-4e99-a445-0deaf6d64e09")
 		)
@@ -5928,6 +6352,72 @@
 			(project "TPM-IO-BOARD"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 127 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db0a5e6-122e-4c28-8e90-5d3f521be32e")
+		(property "Reference" "#PWR066"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9c254aa-37f5-429e-b882-73c7055ae942")
+		)
+		(instances
+			(project "TPM-IO-BOARD"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5975,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 41.91 186.69 0)
 			(effects
 				(font
@@ -5991,6 +6481,87 @@
 			(project "TPM-IO-BOARD"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "35ZLH470MEFC10X16:35ZLH470MEFC10X16")
+		(at 127 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65c6004c-e892-4dd4-b1ef-573cbfe266a4")
+		(property "Reference" "C6"
+			(at 130.81 63.4999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 130.81 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_YX_10X16_RUB"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "35ZLH470MEFC10X16"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C338196"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db8afb1d-104a-43c3-8cc9-33751388542c")
+		)
+		(pin "2"
+			(uuid "8f08b0e2-cdca-4245-b4b4-d0b743f3b2a5")
+		)
+		(instances
+			(project "TPM-IO-BOARD"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6159,6 +6730,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C61791"
+			(at 31.75 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6409,6 +6989,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07b272d0-dd80-40f8-92ed-d4fe839cffdd")
 		)
@@ -6587,6 +7176,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C61791"
+			(at 234.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6771,6 +7369,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24ac8cc7-f052-433d-8793-d4e08c7d7270")
 		)
@@ -6781,6 +7388,69 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d323c1-d735-46f5-9d4c-7af373c5920f")
+		(property "Reference" "#PWR065"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BUS_GND"
+			(at 127.1143 74.1744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe2d426b-a437-4b41-9cd5-f8af718776e4")
+		)
+		(instances
+			(project "TPM-IO-BOARD"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6814,7 +7484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1844223:CONN_1844223_PXC"
+		(property "Footprint" "CONN_1844223_PXC"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6835,6 +7505,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5244104"
 			(at 99.06 113.03 0)
 			(effects
 				(font
@@ -6955,7 +7634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1844223:CONN_1844223_PXC"
+		(property "Footprint" "CONN_1844223_PXC"
 			(at 102.87 162.56 0)
 			(effects
 				(font
@@ -6976,6 +7655,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5244104"
 			(at 102.87 162.56 0)
 			(effects
 				(font
@@ -7168,6 +7856,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73e5ca80-239a-4efd-9722-6de14b81ab04")
 		)
@@ -7277,7 +7974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1844223:CONN_1844223_PXC"
+		(property "Footprint" "CONN_1844223_PXC"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -7298,6 +7995,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5244104"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -7490,6 +8196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a8d3b89-c49f-4c2f-8151-8013fe2ab74c")
 		)
@@ -7500,6 +8215,87 @@
 			(project "TPM-IO-BOARD"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "35ZLH470MEFC10X16:35ZLH470MEFC10X16")
+		(at 140.97 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34c8761-8815-4bde-aa98-4cb67a6033f4")
+		(property "Reference" "C7"
+			(at 144.78 63.4999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 144.78 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_YX_10X16_RUB"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "35ZLH470MEFC10X16"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C338196"
+			(at 140.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2608226f-5d1c-430b-a181-b37b6fd7d4cd")
+		)
+		(pin "2"
+			(uuid "d85d242d-272b-401d-8633-667f745cd7f6")
+		)
+		(instances
+			(project "TPM-IO-BOARD"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7671,6 +8467,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1523b1d0-f64f-4f8d-a565-cf97025ebfe5")
 		)
@@ -7681,6 +8485,87 @@
 			(project "TPM-IO-BOARD"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "35ZLH470MEFC10X16:35ZLH470MEFC10X16")
+		(at 113.03 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eecec37f-7671-4b4a-94be-ba025ab6a3c1")
+		(property "Reference" "C5"
+			(at 116.84 63.4999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 116.84 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_YX_10X16_RUB"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "35ZLH470MEFC10X16"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C338196"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d79bd610-9fd3-4ed8-992a-4ee67f941285")
+		)
+		(pin "2"
+			(uuid "4d9f4858-22e6-4611-94ad-502565053120")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7852,6 +8737,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61791"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9d45e7c-5b34-47ae-bcb4-949c8808cb5d")
 		)
@@ -7909,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 125.73 0)
 			(effects
 				(font
@@ -7972,7 +8866,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 186.69 0)
 			(effects
 				(font
@@ -8589,6 +9483,44 @@
 			(project "TPM-IO-BOARD"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 165.1)
+		(size 17.78 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a67441aa-72e9-4dab-a1d8-4857c7bc613c")
+		(property "Sheetname" "LED-Indicators"
+			(at 144.78 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 144.78 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TPM-IO-BOARD"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "17")
 				)
 			)
 		)
